@@ -6,76 +6,130 @@
     <title>LightCam 隐私政策</title>
     <style>
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            background-color: #f9f9f9;
+            font-family: 'Segoe UI', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
             color: #333;
-            line-height: 1.7;
-            padding: 40px;
-            max-width: 900px;
-            margin: auto;
+        }
+        h1, h2, h3 {
+            color: #1a73e8;
+            border-bottom: 2px solid #e0e0e0;
+            padding-bottom: 8px;
         }
         h1 {
             text-align: center;
-            font-size: 2em;
             margin-bottom: 30px;
         }
-        h2 {
-            color: #1a73e8;
-            margin-top: 2em;
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 20px;
         }
-        p, li {
-            margin: 0.6em 0;
+        .section {
+            margin-bottom: 30px;
+        }
+        .section h2 {
+            margin-top: 30px;
         }
         ul {
-            padding-left: 1.5em;
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        ul li::before {
+            content: "•";
+            color: #1a73e8;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        .highlight {
+            color: #d93025;
+            font-weight: 500;
+        }
+        .contact {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+        }
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
         }
     </style>
 </head>
 <body>
     <h1>LightCam 隐私政策</h1>
-    <p><strong>生效日期：</strong>2025.5.15</p>
+    <div class="subtitle">生效日期：<span class="highlight">[2025.5.15]</span></div>
+
     <p>欢迎使用 LightCam！我们非常重视您的隐私。本隐私协议旨在说明 LightCam 应用（以下简称 “本应用”）在收集、使用、存储和保护您个人信息时的相关规则和做法。请您在使用本应用前，仔细阅读并理解本隐私协议的全部内容。如您使用本应用，即表示您已充分理解并同意本隐私协议的所有条款。</p>
 
-    <h2>一、我们收集的信息</h2>
-    <h3>（一）必要信息</h3>
-    <ul>
-        <li><strong>相机权限相关信息：</strong>为实现专业级相机功能...（此处略去中间部分以简化展示）</li>
-        <li><strong>手电筒和警示灯权限相关信息：</strong>当您使用手电筒...功能。</li>
-        <li><strong>屏幕补光灯和纯色灯权限相关信息：</strong>我们需要获取屏幕显示控制权限。</li>
-    </ul>
-    <h3>（二）非必要但提升体验的信息</h3>
-    <ul>
-        <li>位置信息：用于推荐警示灯模式或补光参数，您可随时关闭。</li>
-        <li>相册访问权限：用于保存或编辑图片/视频，仅在明确授权后访问。</li>
-    </ul>
+    <div class="section">
+        <h2>一、我们收集的信息</h2>
+        <h3>（一）必要信息</h3>
+        <ul>
+            <li>相机权限相关信息<strong>：</strong>为实现专业级相机功能，包括前后摄像头的使用、自动 / 手动曝光调节、滤镜美颜、高清录像，我们需要获取您的相机使用权限。在您使用相机功能过程中，我们仅临时处理您拍摄的照片和视频数据，不会在未经您同意的情况下存储或传输这些内容，除非您主动选择保存至相册或分享。</li>
+            <li>手电筒和警示灯权限相关信息<strong>：</strong>当您使用手电筒（强光、弱光、SOS 等模式）和警示灯（红蓝警示闪灯）功能时，我们需要获取设备的闪光灯控制权限。该权限仅用于控制设备硬件灯光，不会收集任何个人信息。</li>
+            <li>屏幕补光灯和纯色灯权限相关信息<strong>：</strong>为实现屏幕补光灯自由选择色温与亮度，以及屏幕纯色灯整屏照明、随心变色的功能，我们需要获取屏幕显示控制权限。此权限仅用于调整屏幕显示参数，不会收集您的个人信息。</li>
+        </ul>
 
-    <h2>二、信息的使用</h2>
-    <p>1. 必要信息仅用于实现核心功能。</p>
-    <p>2. 非必要信息仅在授权后用于优化体验。</p>
-    <p>3. 不会非法使用或共享您的信息，除非您同意或法律另有规定。</p>
+        <h3>（二）非必要但提升体验的信息</h3>
+        <ul>
+            <li>位置信息：若您选择开启位置信息权限，我们可根据您所在的位置为您提供更贴合场景的光影使用建议，例如在户外探险场景下，为您推荐适合的警示灯模式或补光参数。您可以随时在设备设置中关闭该权限，且不影响其他基础功能的使用。</li>
+            <li>相册访问权限：当您选择将拍摄的照片或视频保存至相册，或从相册选取素材进行编辑时，我们需要获取相册访问权限。我们仅在您明确授权的情况下访问相册内容，不会在未经您同意时读取或传输相册中的其他数据。</li>
+        </ul>
+    </div>
 
-    <h2>三、信息的存储</h2>
-    <p>仅在功能必要时间内保存，退出即删除；采用加密与维护手段保护安全。</p>
+    <div class="section">
+        <h2>二、信息的使用</h2>
+        <ul>
+            <li>我们收集的必要信息仅用于实现本应用的核心功能，如相机拍摄、灯光控制等。</li>
+            <li>对于非必要信息，仅在您授权同意的情况下，用于优化应用功能和提升您的使用体验，例如根据位置信息提供个性化推荐，根据相册内容为您提供更合适的滤镜或编辑建议。</li>
+            <li>我们不会将您的个人信息用于任何非法目的，也不会向第三方出售、出租或共享您的个人信息，除非获得您的明确同意，或法律法规另有规定。</li>
+        </ul>
+    </div>
 
-    <h2>四、第三方服务</h2>
-    <p>我们可能会集成第三方分析工具，但会严格约束其权限与用途。</p>
+    <div class="section">
+        <h2>三、信息的存储</h2>
+        <ul>
+            <li>我们仅在实现本应用功能所必需的最短时间内保留您的个人信息。例如，对于您临时拍摄但未保存的照片和视频数据，在您退出拍摄界面后将被立即删除。</li>
+            <li>我们采取合理的技术和管理措施，保障您个人信息的安全，防止信息被泄露、篡改或丢失。我们使用加密技术保护敏感信息的传输和存储，并定期对系统进行安全评估和维护。</li>
+        </ul>
+    </div>
 
-    <h2>五、您的权利</h2>
-    <ul>
-        <li>访问和管理信息权限</li>
-        <li>申请删除信息</li>
-        <li>撤回权限授权</li>
-    </ul>
+    <div class="section">
+        <h2>四、第三方服务</h2>
+        <p>本应用可能会集成第三方服务，如用于数据分析的工具，以帮助我们了解应用的使用情况并改进服务。在使用第三方服务时，我们会确保第三方遵守严格的隐私保护标准，仅在必要范围内获取您的信息，且其对信息的使用受本隐私协议及第三方自身隐私政策的约束。我们将尽力监督第三方对您个人信息的处理行为，但对于第三方的独立行为，我们无法承担责任。</p>
+    </div>
 
-    <h2>六、儿童隐私保护</h2>
-    <p>不面向 14 岁以下用户。若发现误收集，将立即删除。</p>
+    <div class="section">
+        <h2>五、您的权利</h2>
+        <ul>
+            <li>访问和管理信息：您可以随时通过设备的隐私设置，查看和管理授予本应用的各项权限。例如，您可以关闭相机、相册、位置等权限，限制我们对相应信息的访问。</li>
+            <li>删除信息：在符合法律法规规定的前提下，您有权要求我们删除您的个人信息。您可以通过应用内的反馈渠道或联系我们的客服（联系邮箱：<a href="mailto:catpadcharles@gmail.com">[catpadcharles@gmail.com]</a>）提出删除请求，我们将在核实您的身份后，尽快处理您的请求。</li>
+            <li>撤回同意：您可以随时撤回对某些信息收集和使用的同意。撤回同意可能会影响您使用部分功能，但不影响已基于您之前同意进行的信息处理活动。</li>
+        </ul>
+    </div>
 
-    <h2>七、隐私协议的变更</h2>
-    <p>协议变更后将通知您，继续使用即视为接受。</p>
+    <div class="section">
+        <h2>六、儿童隐私保护</h2>
+        <p>我们非常重视儿童的隐私保护。本应用不面向 14 周岁以下儿童提供服务，我们也不会在明知的情况下收集 14 周岁以下儿童的个人信息。如果我们发现收集了 14 周岁以下儿童的个人信息，我们将立即删除相关信息。如您认为我们可能错误收集了儿童的个人信息，请联系我们的客服（联系邮箱：<a href="mailto:catpadcharles@gmail.com">[catpadcharles@gmail.com]</a>）。</p>
+    </div>
 
-    <h2>八、联系我们</h2>
-    <p>如有疑问请联系邮箱：<strong>catpadcharles@gmail.com</strong></p>
+    <div class="section">
+        <h2>七、隐私协议的变更</h2>
+        <p>我们可能会根据法律法规的更新、业务发展或其他原因，对本隐私协议进行修订。修订后的隐私协议将在本应用内公布，并以显著方式通知您。如您继续使用本应用，即表示您接受修订后的隐私协议。若您不同意变更后的协议内容，您可以停止使用本应用。</p>
+    </div>
 
-    <p>—— LightCam 团队</p>
+    <div class="section contact">
+        <h2>八、联系我们</h2>
+        <p>如果您对本隐私协议或我们的隐私保护措施有任何疑问、意见或建议，欢迎通过以下方式联系我们：</p>
+        <p>联系邮箱：<a href="mailto:catpadcharles@gmail.com">[catpadcharles@gmail.com]</a></p>
+        <p>我们将尽快回复并处理您的问题。</p>
+        <p class="subtitle">LightCam 团队</p>
+    </div>
 </body>
 </html>

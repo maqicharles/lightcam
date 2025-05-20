@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LightCam X - Support</title>
+  <link rel="icon" type="image/png" href="https://github.com/maqicharles/lightcam/raw/main/assets/lightcam_icon_32_v2.png"> <!-- 网页标签页 icon -->
+  <style>
+    body { font-family: Arial, sans-serif; padding: 2rem; max-width: 800px; margin: auto; line-height: 1.6; color: #333; }
+    h1, h2 { color: #1a73e8; }
+    a { color: #1a73e8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    ul { padding-left: 1.2rem; }
+    .icon {
+      width: 100px;
+      height: 100px;
+      border-radius: 20px;
+      margin-bottom: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- 页面顶部产品图标 -->
+  <img src="https://github.com/maqicharles/lightcam/raw/main/assets/lightcam_icon_512_v2.png" alt="LightCam X App Icon" class="icon">
+  
+  <h1>LightCam X - Support</h1>
+  <p><strong>Version:</strong> 1.0<br>
+     <strong>Developer:</strong> Charles Ma<br>
+     <strong>Contact:</strong> <a href="mailto:catpadcharles@gmail.com">catpadcharles@gmail.com</a>
+  </p>
+
+  <h2>About the App</h2>
+  <p><strong>LightCam X</strong> is a 5-in-1 light utility toolkit combining flashlight, camera, strobe, screen light, and emergency beacon features — all in one intuitive app.</p>
+
+  <h2>Features</h2>
+  <ul>
+    <li>📸 HD photo & video capture with real-time preview</li>
+    <li>🔦 Adjustable flashlight with strobe & brightness control</li>
+    <li>🌈 Full-screen color lighting for reading, fill light, or ambiance</li>
+    <li>🚨 Emergency strobe modes with built-in sounds (SOS, police, etc.)</li>
+    <li>🌗 Screen glow fill light for soft lighting scenarios</li>
+  </ul>
+
+  <h2>FAQ</h2>
+  <p><strong>Q: The flashlight doesn’t work?</strong><br>
+  A: Please check camera/flashlight permissions in iOS Settings → LightCam X.</p>
+
+  <p><strong>Q: How to switch between modes?</strong><br>
+  A: Tap the icons at the bottom of the home screen to toggle between the 5 tools.</p>
+
+  <h2>Privacy Policy</h2>
+  <p>Read our <a href="https://yourdomain.com/privacy">Privacy Policy</a>.</p>
+
+  <h2>Need More Help?</h2>
+  <p>Email us at <a href="mailto:catpadcharles@gmail.com">catpadcharles@gmail.com</a></p>
+</body>
+</html>

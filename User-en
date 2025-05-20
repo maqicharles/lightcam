@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>隐私政策 - LightCam</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      font-family: "Helvetica Neue", sans-serif;
+      font-size: 17px;
+      line-height: 1.6;
+      padding: 20px;
+      background-color: #ffffff;
+      color: #111111;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    h1, h2, h3 {
+      color: #111111;
+    }
+
+    a {
+      color: #007aff;
+    }
+
+    /* 深色模式样式 */
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #121212;
+        color: #f0f0f0;
+      }
+
+      h1, h2, h3 {
+        color: #ffffff;
+      }
+
+      a {
+        color: #5ea5ff;
+      }
+    }
+  </style>
+</head>
+<body>
+    <h1>LightCam User Agreement</h1>
+    <div class="subtitle">Effective Date: <span class="highlight">[May 15, 2025]</span></div>
+
+    <p>Welcome to use the LightCam application (hereinafter referred to as the "App"), developed by the LightCam Team (hereinafter referred to as "we"). To protect your rights and interests, please read the following user agreement ("Agreement") carefully before using the App. By using the App, you agree to be bound by all terms and conditions of this Agreement. If you do not agree with any part of this Agreement, please stop using the App.</p>
+
+    <div class="section">
+        <h2>I. Service Content</h2>
+        <p>The App is a tool-type application integrating professional photography, flashlight, warning light, screen fill light, and solid-color light functions, aiming to provide users with convenient and efficient lighting and shooting solutions. We will make reasonable efforts to ensure the stability and availability of the App, but we do not guarantee that it will be completely free of faults or interruptions.</p>
+    </div>
+
+    <div class="section">
+        <h2>II. Usage Rules</h2>
+        <h3>1. User Conduct Standards</h3>
+        <ul>
+            <li>You must comply with Chinese laws and regulations, internet rules, and social ethics, and shall not use the App for illegal,违规 (violative), or harmful activities against others.</li>
+            <li>You shall not use the App to create, publish, or disseminate any false, harmful, infringing, pornographic, violent, or other content that violates public order and good customs.</li>
+            <li>You shall not interfere with or disrupt the normal operation of the App, nor attempt to crack, modify, or decompile the App's code.</li>
+            <li>You shall not use the App for any unauthorized access, data collection, or other illegal activities.</li>
+        </ul>
+
+        <h3>2. Content Usage Restrictions</h3>
+        <ul>
+            <li>All content within the App (including but not limited to text, images, audio, video, etc.) is protected by copyright, trademark, and other intellectual property laws. Without our written permission, you shall not copy, modify, distribute, disseminate, or use it for other commercial purposes.</li>
+            <li>For the content you generate during the use of the App (such as photos, videos, etc.), you retain the intellectual property rights, but you grant us a worldwide, free, irrevocable, non-exclusive right to use it to provide services and improve App functions.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>III. Privacy Protection</h2>
+        <p>We value your privacy. For details, please refer to the <a href="privacy-policy.html">LightCam Privacy Policy</a>. By using the App, you consent to our collection, use, and protection of your personal information in accordance with that privacy policy.</p>
+    </div>
+
+    <div class="section">
+        <h2>IV. Disclaimer of Liability</h2>
+        <ul>
+            <li>The App is a tool-type application, and you shall bear all risks and consequences arising from its use. We shall not be liable for any direct or indirect losses caused by the use of the App.</li>
+            <li>To the extent permitted by law, we make no express or implied warranties regarding the accuracy, completeness, reliability, suitability, or availability of the App.</li>
+            <li>We shall not be liable for service interruptions or inability to use the App caused by force majeure, network failures, third-party service issues, or other causes beyond our control.</li>
+            <li>You shall independently judge the authenticity and reliability of information during the use of the App and bear full responsibility for the consequences of using such information.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>V. Limitation of Liability</h2>
+        <ul>
+            <li>Under no circumstances shall we be liable for any special, indirect, incidental, or punitive damages (including but not limited to loss of profits, data loss, business interruption, etc.) arising from your use of the App, even if we have been advised of the possibility of such damages.</li>
+            <li>Our liability to you for any claim shall be limited to the actual direct losses you have suffered, and shall not exceed the total amount of fees you have paid for using the App in the 12 months prior to filing the claim.</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>VI. Intellectual Property</h2>
+        <p>All intellectual property rights in the App (including but not limited to software code, trademarks, patents, designs, etc.) are owned by us. Without our written permission, you shall not copy, modify, distribute, disseminate, or otherwise use any part of the App.</p>
+    </div>
+
+    <div class="section">
+        <h2>VII. Agreement Modification</h2>
+        <p>We reserve the right to modify the terms and conditions of this Agreement at any time. The modified Agreement will be posted within the App and notified to you. Your continued use of the App constitutes your acceptance of the modified Agreement. If you do not agree with the modified Agreement, please stop using the App.</p>
+    </div>
+
+    <div class="section">
+        <h2>VIII. Termination of Service</h2>
+        <p>We reserve the right to terminate your right to use the App in the following circumstances:</p>
+        <ul>
+            <li>You violate any provision of this Agreement;</li>
+            <li>Laws and regulations require us to terminate the service;</li>
+            <li>Other circumstances where we deem it necessary to terminate the service.</li>
+        </ul>
+        <p>Upon termination of the service, you shall immediately stop using the App and delete all copies of the App from your devices.</p>
+    </div>
+
+    <div class="section">
+        <h2>IX. Governing Law and Dispute Resolution</h2>
+        <ul>
+            <li>This Agreement shall be governed by and construed in accordance with the laws of China.</li>
+            <li>Any dispute arising out of or in connection with this Agreement shall first be resolved through friendly negotiation between the parties; if negotiation fails, either party shall have the right to submit the dispute to the people's court with jurisdiction.</li>
+        </ul>
+    </div>
+
+    <div class="section contact">
+        <h2>X. Contact Us</h2>
+        <p>If you have any questions or suggestions regarding this Agreement, please contact us via:</p>
+        <p>Email: <a href="mailto:catpadcharles@gmail.com">[catpadcharles@gmail.com]</a></p>
+        <p>We will respond to your inquiry as soon as possible.</p>
+        <p class="subtitle">LightCam Team</p>
+    </div>
+</body>
+</html>
